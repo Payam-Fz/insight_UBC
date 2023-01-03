@@ -1,0 +1,63 @@
+p {
+	font-size: small;
+	/*white-space: nowrap;*/
+	/*text-align: center;*/
+}
+
+h2 {
+	text-align: center;
+}
+
+.main-container{
+	height: 100vh;
+}
+.body-container {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 3%;
+	min-width: 1000px;
+}
+.navbar-brand{
+	margin-left: 1.5%;
+}
+.carousel-item {
+	position: relative;
+	padding: 0 15%;
+}
+
+.carousel-indicators {
+	position: fixed;
+}
+
+.form {
+	display: flex;
+	flex-direction: row;
+	column-gap: 40px;
+	row-gap: 40px;
+}
+
+.form .input-group {
+	margin-top: 5px;
+	/*width: 70%;*/
+}
+
+.btn {
+	margin-bottom: 1.5%;
+	white-space: nowrap;
+}
+
+.nav-button {
+	height: 14rem;
+}
+
+.error-container {
+	justify-content: center;
+	text-align: center;
+	white-space: nowrap;
+	margin: 0 0 5%;
+}
+
+.error-container h5 {
+	color: red;
+}
